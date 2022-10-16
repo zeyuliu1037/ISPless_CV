@@ -7,7 +7,7 @@ Our experiments are based on the [mmfewshot](https://github.com/open-mmlab/mmfew
 Our released dataset can be download from this [link](https://drive.google.com/file/d/1gNG-GVd5gb-PO8U4hDkO_EL138S7e3MO/view?usp=sharing). It consists of 123287 npy files with a total size of 391 GB.
 
 ## Training setup
-To integrate our dataset with mmfewshot, you should use our functions (```mmdet/datasets/pipelines```) to load the dataset.
+To integrate our dataset with mmfewshot, please use our functions (```mmdet/datasets/pipelines```) to load the dataset.
 
 Our configurations for base training and few-shot learning by using Faster RCNN model are provided in ```configs/detection/tfa/coco```.
 
